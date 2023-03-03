@@ -3,7 +3,7 @@
 ### What is Events?
 
 Events is a simple `Typescript/Javascript` framework to provide you with a 
-solution to design your applications based around a CQQRS/Event Sourcing 
+solution to design your applications based around a CQRS/Event Sourcing 
 architecture.
 
 The goal of this package is to provide a standard structure to how to event 
