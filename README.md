@@ -9,13 +9,13 @@ architecture.
 The goal of this package is to provide a standard structure to how to event 
 store applications.
 
-This framework provides a simple way to implement event souring with any 
+This framework provides a simple way to implement event sourcing with any 
 setup your stack requires. 
 
 Events, Commands, States, Handlers, Projectors, Services all provided via 
 basic abstractions.
 
-This package does heavily reply on Typescript and is highly recommended
+This package does depend on Typescript and is highly recommended
 
 # installation
 
@@ -153,7 +153,7 @@ await addItemToCartService.execute(addRaceCarToy);
 
 ## Queries & Query handlers
 
-### Queryies and QueryHandlers are provided to offer a full solution to CQRS. 
+### Queries and QueryHandlers are provided to offer a full solution to CQRS. 
 ### This is not implemented for sourcing queries. This is an optional structure 
 ### for querying
 
